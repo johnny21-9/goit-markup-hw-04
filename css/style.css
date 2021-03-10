@@ -48,6 +48,9 @@ ul {
 .logo:link {
   color: inherit;
 }
+footer .logo:link {
+  color: var(--text-white);
+}
 .logo span {
   color: var(--light-blue);
 }
@@ -88,7 +91,7 @@ ul {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/background.jpg);
+    url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -498,6 +501,10 @@ address a {
   width: 100%;
   align-items: center;
   justify-content: center;
+}
+.client-link:link,
+.client-link:visited {
+  color: inherit;
 }
 .client-link svg {
   fill: currentColor;
